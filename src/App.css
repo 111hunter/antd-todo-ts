@@ -1,3 +1,5 @@
+@import "~antd/dist/antd.css";
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.ant-tabs-nav-list {
+  margin: auto;
+}
+
+.ant-tabs-tab {
+  margin: 0 48px 0 0;
+}
+
+.ant-badge-status-dot {
+  width: 15px;
+  height: 15px;
 }
